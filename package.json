@@ -4,12 +4,13 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "start": "serverless offline start"
+    "start": "sls offline start",
+    "dynamo": "sls dynamodb start"
   },
   "author": "",
   "license": "MIT",
-
   "devDependencies": {
+    "serverless-dynamodb-local": "0.2.22",
     "serverless-offline": "3.14.1"
   }
 }
