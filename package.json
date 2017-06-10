@@ -7,10 +7,15 @@
     "start": "sls offline start",
     "dynamo": "sls dynamodb start"
   },
-  "author": "",
-  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "2.67.0",
+    "uuid": "3.0.1"
+  },
   "devDependencies": {
+    "serverless-dynamodb-client": "0.0.2",
     "serverless-dynamodb-local": "0.2.22",
     "serverless-offline": "3.14.1"
-  }
+  },
+  "author": "",
+  "license": "MIT"
 }
