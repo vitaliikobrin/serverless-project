@@ -7,5 +7,9 @@
     "start": "serverless"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+
+  "devDependencies": {
+    "serverless-offline": "3.14.1"
+  }
 }
